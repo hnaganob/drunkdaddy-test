@@ -20,7 +20,7 @@ DrunkDaddy <- function(AdjMat, Step = 10000, Home = 1, Neg = FALSE) {
   # H <- hist(Path, breaks = Breaks, plot = F)
   # VisitSum <- H$counts
 
-  # Number of visit at each node
+  # very drunk santa claus
   VisitSumNeg <- as.vector(-diff(table(
     rep_len(c(1, -1), Step),
     factor(Path, seq(dim(Adj)[1]))
