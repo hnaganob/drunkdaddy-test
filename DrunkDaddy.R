@@ -14,7 +14,8 @@ DrunkDaddy <- function(AdjMat, Step = 10000, Home = 1, Neg = FALSE) {
     )
   }
 
-  # Number of visit at each node
+  # drunk santa claus
+  # number of visits at each node
   VisitSum <- tabulate(Path, nbins = dim(Adj)[1])
   # Breaks <- 1:(ncol(Adj) + 1) - 0.5
   # H <- hist(Path, breaks = Breaks, plot = F)
